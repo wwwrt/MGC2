@@ -7,14 +7,8 @@
    display: inline-block;
 }
 
-.colorBox {
-    background-color: rgb(237, 235, 235);
-    margin-bottom: 3px;
-}
-
-.colorBox2 {
-    background-color: rgb(255, 255, 255);
-    margin: 3px;
+.mainbox3 {
+ display: flex;
 }
 
 .marginBox2{
@@ -25,6 +19,39 @@
     margin: 0 15% 3px 15%;
 }
 
+.colorBox {
+    background-color: rgb(249, 243, 243);
+    margin-bottom: 3px;
+}
+
+.colorBox2 {
+    background-color: rgb(255, 255, 255);
+    margin: 3px;
+}
+
 #cb1 {
     accent-color: #1fff5f;
   }
+
+
+.gridCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.parent {
+    
+    margin 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.child {
+display: inline-block;
+border: 1px;
+padding: 1rem 1rem;
+vertical-align: middle;
+
+}
+
